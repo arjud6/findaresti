@@ -1,0 +1,28 @@
+<html>
+    <body>
+        <p id="hi">Balisico Restaurant Pizza Australia</p>
+        <script>
+            var search1 = "BR";
+            var balisico = document.getElementById("hi").textContent;
+            var balisicoc = document.getElementById("hi");
+            for (var i = 0, len = balisico.length; i < len; i++) {
+               //var a = 0, len1 = balisicoc.length; a < len1; a++;
+                
+                
+                if (search1.indexOf(balisico[i]) > -1) {
+                    balisico.replace(balisico[i], "<p onload='functiongo();'>"+balisico[i]+"</p>");
+                }
+                
+            }
+            function functiongo() {
+                alert("hi");
+            }
+
+        </script>
+        <style>
+            .red {
+                color: red;
+            }
+        </style>
+    </body>
+</html>

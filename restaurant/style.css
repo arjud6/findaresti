@@ -537,7 +537,7 @@ textarea:focus, input:focus{
     width: 9.6%;
     cursor: pointer;
     
-    
+      
     
 } 
 p90 {
@@ -545,10 +545,10 @@ p90 {
 }
 p30 {
     position: absolute;
-    margin-top: 45%;
+    margin-top: 43.4%;
     color: rgba(200,200,200,0.9);
     font-family: cursive;
-    font-size: 1.9vw;
+    font-size: 1.5vw;
     margin-left: -15%
     
 }

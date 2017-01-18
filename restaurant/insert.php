@@ -64,24 +64,24 @@
                 background: url(restaurant-e1456862749354.jpg) no-repeat fixed;
                 filter: blur(15px);
                 background-size: 100%;
-                width: 60%;
+                width: 50%;
                 padding-bottom: 50%;
                 z-index: -1;
                 border-radius: 10vw;
-                margin-left: 19%;
+                margin-left:25%;
                 margin-top: 1%;
                 
                 
             }
             #cover2 {
                 position: absolute;
-                width: 60%;
+                width: 50%;
                 padding-bottom: 50%;
                 background-color: rgba(0,0,0,0.4);
                 z-index: 1;
                 border: 1vw solid rgba(25,25,25,0.7);
                 border-radius: 10vw;
-                margin-left: 19%;
+                margin-left:25%;
                 margin-top: 1%;
                 
             }
